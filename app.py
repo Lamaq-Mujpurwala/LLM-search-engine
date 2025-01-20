@@ -9,6 +9,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv(r"C:\Users\lamaq\OneDrive\Desktop\GENAI\.env")
 key = os.getenv("GROQ_API_KEY")
+st.secrets['GROQ_API_KEY']
 
 
 wiki_api_wrapper = WikipediaAPIWrapper(top_k_results=2 , doc_content_chars_max=500)
