@@ -1,8 +1,8 @@
 langchain
-ipykernel
 python-dotenv
 langchain_community
 langchain_groq
-langchain_huggingface
 streamlit
-validators
+wikipedia
+arxiv
+duckduckgo-search
